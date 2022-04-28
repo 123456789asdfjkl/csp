@@ -536,37 +536,6 @@ build 201703-1: CXX_EXECUTABLE_LINKER__201703-1_Debug CMakeFiles/201703-1.dir/20
   TARGET_FILE = 201703-1
   TARGET_PDB = 201703-1.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target test
-
-
-#############################################
-# Order-only phony target for test
-
-build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
-
-build CMakeFiles/test.dir/test.cpp.o: CXX_COMPILER__test_Debug /home/changjunlin/CLionProjects/CSP/test.cpp || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles/test.dir/test.cpp.o.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/test.dir
-  OBJECT_FILE_DIR = CMakeFiles/test.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test
-
-
-#############################################
-# Link the executable test
-
-build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.o
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles/test.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = test
-  TARGET_PDB = test.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -602,7 +571,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/changjunlin/CLionProjects/CSP/cmake-build-debug
 
-build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1 test
+build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1
 
 # =============================================================================
 # Built-in targets
