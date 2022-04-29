@@ -536,6 +536,99 @@ build 201703-1: CXX_EXECUTABLE_LINKER__201703-1_Debug CMakeFiles/201703-1.dir/20
   TARGET_FILE = 201703-1
   TARGET_PDB = 201703-1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 201612-1
+
+
+#############################################
+# Order-only phony target for 201612-1
+
+build cmake_object_order_depends_target_201612-1: phony || CMakeFiles/201612-1.dir
+
+build CMakeFiles/201612-1.dir/201612-1.cpp.o: CXX_COMPILER__201612-1_Debug /home/changjunlin/CLionProjects/CSP/201612-1.cpp || cmake_object_order_depends_target_201612-1
+  DEP_FILE = CMakeFiles/201612-1.dir/201612-1.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/201612-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/201612-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 201612-1
+
+
+#############################################
+# Link the executable 201612-1
+
+build 201612-1: CXX_EXECUTABLE_LINKER__201612-1_Debug CMakeFiles/201612-1.dir/201612-1.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/201612-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 201612-1
+  TARGET_PDB = 201612-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 201609-1
+
+
+#############################################
+# Order-only phony target for 201609-1
+
+build cmake_object_order_depends_target_201609-1: phony || CMakeFiles/201609-1.dir
+
+build CMakeFiles/201609-1.dir/201609-1.cpp.o: CXX_COMPILER__201609-1_Debug /home/changjunlin/CLionProjects/CSP/201609-1.cpp || cmake_object_order_depends_target_201609-1
+  DEP_FILE = CMakeFiles/201609-1.dir/201609-1.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/201609-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/201609-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 201609-1
+
+
+#############################################
+# Link the executable 201609-1
+
+build 201609-1: CXX_EXECUTABLE_LINKER__201609-1_Debug CMakeFiles/201609-1.dir/201609-1.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/201609-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 201609-1
+  TARGET_PDB = 201609-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 201604-1
+
+
+#############################################
+# Order-only phony target for 201604-1
+
+build cmake_object_order_depends_target_201604-1: phony || CMakeFiles/201604-1.dir
+
+build CMakeFiles/201604-1.dir/201604-1.cpp.o: CXX_COMPILER__201604-1_Debug /home/changjunlin/CLionProjects/CSP/201604-1.cpp || cmake_object_order_depends_target_201604-1
+  DEP_FILE = CMakeFiles/201604-1.dir/201604-1.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/201604-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/201604-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 201604-1
+
+
+#############################################
+# Link the executable 201604-1
+
+build 201604-1: CXX_EXECUTABLE_LINKER__201604-1_Debug CMakeFiles/201604-1.dir/201604-1.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/201604-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 201604-1
+  TARGET_PDB = 201604-1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -571,7 +664,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/changjunlin/CLionProjects/CSP/cmake-build-debug
 
-build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1
+build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1 201612-1 201609-1 201604-1
 
 # =============================================================================
 # Built-in targets

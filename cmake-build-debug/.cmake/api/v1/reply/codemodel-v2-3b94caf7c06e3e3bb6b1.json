@@ -30,7 +30,10 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17,
+						18
 					]
 				}
 			],
@@ -60,12 +63,36 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17,
+						18
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "201604-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-201604-1-Debug-61a2ef467d639aee2361.json",
+					"name" : "201604-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "201609-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-201609-1-Debug-cdbd6f171fa913b14198.json",
+					"name" : "201609-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "201612-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-201612-1-Debug-df40ce004e786dc37f51.json",
+					"name" : "201612-1",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "201703-1::@6890427a1f51a3e7e1df",
