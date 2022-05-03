@@ -970,6 +970,68 @@ build 201412-2: CXX_EXECUTABLE_LINKER__201412-2_Debug CMakeFiles/201412-2.dir/20
   TARGET_FILE = 201412-2
   TARGET_PDB = 201412-2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 201503-2
+
+
+#############################################
+# Order-only phony target for 201503-2
+
+build cmake_object_order_depends_target_201503-2: phony || CMakeFiles/201503-2.dir
+
+build CMakeFiles/201503-2.dir/201503-2.cpp.o: CXX_COMPILER__201503-2_Debug /home/changjunlin/CLionProjects/CSP/201503-2.cpp || cmake_object_order_depends_target_201503-2
+  DEP_FILE = CMakeFiles/201503-2.dir/201503-2.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/201503-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/201503-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 201503-2
+
+
+#############################################
+# Link the executable 201503-2
+
+build 201503-2: CXX_EXECUTABLE_LINKER__201503-2_Debug CMakeFiles/201503-2.dir/201503-2.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/201503-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 201503-2
+  TARGET_PDB = 201503-2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 201509-2
+
+
+#############################################
+# Order-only phony target for 201509-2
+
+build cmake_object_order_depends_target_201509-2: phony || CMakeFiles/201509-2.dir
+
+build CMakeFiles/201509-2.dir/201509-2.cpp.o: CXX_COMPILER__201509-2_Debug /home/changjunlin/CLionProjects/CSP/201509-2.cpp || cmake_object_order_depends_target_201509-2
+  DEP_FILE = CMakeFiles/201509-2.dir/201509-2.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/201509-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/201509-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 201509-2
+
+
+#############################################
+# Link the executable 201509-2
+
+build 201509-2: CXX_EXECUTABLE_LINKER__201509-2_Debug CMakeFiles/201509-2.dir/201509-2.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/201509-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 201509-2
+  TARGET_PDB = 201509-2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1005,7 +1067,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/changjunlin/CLionProjects/CSP/cmake-build-debug
 
-build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1 201612-1 201609-1 201604-1 201512-1 201509-1 201503-1 201412-1 201409-1 201403-1 201312-1 201312-2 201403-2 201409-2 201412-2
+build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1 201612-1 201609-1 201604-1 201512-1 201509-1 201503-1 201412-1 201409-1 201403-1 201312-1 201312-2 201403-2 201409-2 201412-2 201503-2 201509-2
 
 # =============================================================================
 # Built-in targets
