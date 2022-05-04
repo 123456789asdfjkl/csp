@@ -36,5 +36,8 @@
 /home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/201612-2.dir
 /home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/201703-2.dir
 /home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/201709-2.dir
+/home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/201712-2.dir
+/home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/201803-2.dir
+/home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/201809-1.dir
 /home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/changjunlin/CLionProjects/CSP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
