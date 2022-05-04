@@ -1311,6 +1311,37 @@ build 201809-1: CXX_EXECUTABLE_LINKER__201809-1_Debug CMakeFiles/201809-1.dir/20
   TARGET_FILE = 201809-1
   TARGET_PDB = 201809-1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 201809-2
+
+
+#############################################
+# Order-only phony target for 201809-2
+
+build cmake_object_order_depends_target_201809-2: phony || CMakeFiles/201809-2.dir
+
+build CMakeFiles/201809-2.dir/201809-2.cpp.o: CXX_COMPILER__201809-2_Debug /home/changjunlin/CLionProjects/CSP/201809-2.cpp || cmake_object_order_depends_target_201809-2
+  DEP_FILE = CMakeFiles/201809-2.dir/201809-2.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/201809-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/201809-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 201809-2
+
+
+#############################################
+# Link the executable 201809-2
+
+build 201809-2: CXX_EXECUTABLE_LINKER__201809-2_Debug CMakeFiles/201809-2.dir/201809-2.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/201809-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 201809-2
+  TARGET_PDB = 201809-2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1346,7 +1377,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/changjunlin/CLionProjects/CSP/cmake-build-debug
 
-build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1 201612-1 201609-1 201604-1 201512-1 201509-1 201503-1 201412-1 201409-1 201403-1 201312-1 201312-2 201403-2 201409-2 201412-2 201503-2 201509-2 201512-2 201604-2 201609-2 201612-2 201703-2 201709-2 201712-2 201803-2 201809-1
+build all: phony 202109-1 202112-1 202112-2 202104-1 202012-1 202009-1 202006-1 201912-1 201909-1 201903-1 202203-1 201812-1 201803-1 201712-1 201709-1 201703-1 201612-1 201609-1 201604-1 201512-1 201509-1 201503-1 201412-1 201409-1 201403-1 201312-1 201312-2 201403-2 201409-2 201412-2 201503-2 201509-2 201512-2 201604-2 201609-2 201612-2 201703-2 201709-2 201712-2 201803-2 201809-1 201809-2
 
 # =============================================================================
 # Built-in targets
