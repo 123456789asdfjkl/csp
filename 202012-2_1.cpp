@@ -33,6 +33,5 @@ int main() {
             ans = w[i].first;
         }
     }
-
     printf("%d", ans);
 }
