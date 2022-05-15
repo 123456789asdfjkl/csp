@@ -1,5 +1,5 @@
 /*
- * 深度优先搜索
+ * 广度优先搜索
  */
 
 #include "iostream"
@@ -8,37 +8,29 @@
 std::stack<std::pair<int, int>> s;
 
 void padding(int x, int y, int c, int n, int m, char ans[100 + 10][100 + 10]) {
-    for (int j = x + 1; j < n; ++j) {
-        if (ans[j][y] == '|' || ans[j][y] == '-' || ans[j][y] == '+') {
-            break;
-        } else if (ans[j][y] != c) {
-            ans[j][y] = c;
-            s.push(std::make_pair(j, y));
-        }
+    if (ans[x + 1][y] == '|' || ans[x + 1][y] == '-' || ans[x + 1][y] == '+' || (x + 1 >= n)) {
+
+    } else if (ans[x + 1][y] != c) {
+        ans[x + 1][y] = c;
+        s.push(std::make_pair(x + 1, y));
     }
-    for (int j = x - 1; j >= 0; --j) {
-        if (ans[j][y] == '|' || ans[j][y] == '-' || ans[j][y] == '+') {
-            break;
-        } else if (ans[j][y] != c) {
-            ans[j][y] = c;
-            s.push(std::make_pair(j, y));
-        }
+    if (ans[x - 1][y] == '|' || ans[x - 1][y] == '-' || ans[x - 1][y] == '+' || (x - 1 < 0)) {
+
+    } else if (ans[x - 1][y] != c) {
+        ans[x - 1][y] = c;
+        s.push(std::make_pair(x - 1, y));
     }
-    for (int j = y + 1; j < m; ++j) {
-        if (ans[x][j] == '|' || ans[x][j] == '-' || ans[x][j] == '+') {
-            break;
-        } else if (ans[x][j] != c) {
-            ans[x][j] = c;
-            s.push(std::make_pair(x, j));
-        }
+    if (ans[x][y + 1] == '|' || ans[x][y + 1] == '-' || ans[x][y + 1] == '+' || (y + 1 >= m)) {
+
+    } else if (ans[x][y + 1] != c) {
+        ans[x][y + 1] = c;
+        s.push(std::make_pair(x, y + 1));
     }
-    for (int j = y - 1; j >= 0; --j) {
-        if (ans[x][j] == '|' || ans[x][j] == '-' || ans[x][j] == '+') {
-            break;
-        } else if (ans[x][j] != c) {
-            ans[x][j] = c;
-            s.push(std::make_pair(x, j));
-        }
+    if (ans[x][y - 1] == '|' || ans[x][y - 1] == '-' || ans[x][y - 1] == '+' || (y - 1 < 0)) {
+
+    } else if (ans[x][y - 1] != c) {
+        ans[x][y - 1] = c;
+        s.push(std::make_pair(x, y - 1));
     }
 }
 
@@ -84,11 +76,11 @@ int main() {
             }
         } else {
             std::cin >> x >> y >> c;
+            ans[y][x] = c;
             s.push(std::make_pair(y, x));
             while (!s.empty()) {
                 auto temp1 = s.top();
                 s.pop();
-                ans[temp1.first][temp1.second] = c;
                 padding(temp1.first, temp1.second, c, n, m, ans);
             }
         }
