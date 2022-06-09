@@ -14,7 +14,7 @@ int main() {
     int life0 = 30, life1 = 30;
     int position, attack, health;
     int attacker, defender;
-    int flag = 1;//表明当前玩家
+    int flag = 1;   //表明当前玩家
     tuple<int, int, int> vi0[8], vi1[8];
     vi0[0] = make_tuple(0, 0, 30);
     vi1[0] = make_tuple(0, 0, 30);
